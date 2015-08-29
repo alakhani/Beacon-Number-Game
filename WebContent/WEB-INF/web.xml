@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>BeaconNumberProject</display-name>
+	<servlet>
+		<servlet-name>Hello</servlet-name>
+		<servlet-class>HelloWorld</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Hello</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ProcessInput</servlet-name>
+		<servlet-class>ProcessActorInputs</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProcessInput</servlet-name>
+		<url-pattern>/ProcessInputServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AddResourceString</servlet-name>
+		<servlet-class>AddResourceServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddResourceString</servlet-name>
+		<url-pattern>/AddResourceServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DownloadXML</servlet-name>
+		<servlet-class>DownloadXMLFile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DownloadXML</servlet-name>
+		<url-pattern>/DownloadXML</url-pattern>
+	</servlet-mapping>
+</web-app>

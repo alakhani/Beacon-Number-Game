@@ -1,0 +1,7 @@
+<http://prfoessionalRelation/frank> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/dotty> .
+<http://prfoessionalRelation/dotty> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/edward> .
+<http://prfoessionalRelation/chuck> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/dotty> .
+<http://prfoessionalRelation/beth> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/dotty> .
+<http://prfoessionalRelation/beth> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/chuck> .
+<http://prfoessionalRelation/adam> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/edward> .
+<http://prfoessionalRelation/adam> <http://purl.org/vocab/relationship/worksWith> <http://prfoessionalRelation/beth> .
